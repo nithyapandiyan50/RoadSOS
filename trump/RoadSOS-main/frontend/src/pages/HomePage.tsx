@@ -3,23 +3,48 @@ import {
   ChevronRight, Activity, TrendingUp, ArrowRight
 } from 'lucide-react';
 import type { PageId } from '../App';
-import { useAlert } from '../context/AlertContext';
+
 
 interface HomePageProps {
   onNavigate: (page: PageId) => void;
 }
 
 export default function HomePage({ onNavigate }: HomePageProps) {
-  const { accidents } = useAlert();
-  const resolved = accidents.filter(a => a.status === 'Resolved').length;
-  const alertsSent = accidents.filter(a => a.status !== 'Detected').length;
-
+  
   const stats = [
-    { label: 'Accidents Detected', value: accidents.length.toString(), icon: <AlertTriangle size={22} />, variant: 'danger' as const, change: '+12% this month', up: false },
-    { label: 'Rescue Alerts Sent', value: alertsSent.toString(), icon: <Radio size={22} />, variant: 'warning' as const, change: '+8% this month', up: true },
-    { label: 'Lives Saved', value: (resolved * 3).toString(), icon: <Heart size={22} />, variant: 'success' as const, change: '+15% this month', up: true },
-    { label: 'Avg Response Time', value: '4.2m', icon: <Clock size={22} />, variant: 'accent' as const, change: '-18% improvement', up: true },
-  ];
+  {
+    label: 'Accidents Detected',
+    value: '21',
+    icon: <AlertTriangle size={22} />,
+    variant: 'danger' as const,
+    change: '+12% this month',
+    up: false,
+  },
+  {
+    label: 'Rescue Alerts Sent',
+    value: '5',
+    icon: <Radio size={22} />,
+    variant: 'warning' as const,
+    change: '+8% this month',
+    up: true,
+  },
+  {
+    label: 'Lives Saved',
+    value: '3',
+    icon: <Heart size={22} />,
+    variant: 'success' as const,
+    change: '+15% this month',
+    up: true,
+  },
+  {
+    label: 'Avg Response Time',
+    value: '4.2m',
+    icon: <Clock size={22} />,
+    variant: 'accent' as const,
+    change: '-18% improvement',
+    up: true,
+  },
+];
 
   const howItWorks = [
     { step: 1, title: 'AI Detection', desc: 'Our AI cameras and IoT sensors continuously monitor roads for accidents in real-time.' },
