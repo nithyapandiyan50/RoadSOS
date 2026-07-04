@@ -50,7 +50,7 @@ interface AlertContextType {
 
 const AlertContext = createContext<AlertContextType | undefined>(undefined);
 
-const API_BASE = window.location.origin.includes('localhost') ? 'http://localhost:5000' : '';
+const API_BASE = "https://roadsos-b9sv.onrender.com";
 
 export const AlertProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [accidents, setAccidents] = useState<Accident[]>([]);
