@@ -1,0 +1,237 @@
+{
+  "accidents": [
+    {
+      "id": "acc_1",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "locationName": "Highway 101 Northbound, Near Exit 433",
+      "severity": "Critical",
+      "status": "Rescue Dispatched",
+      "source": "Camera",
+      "timestamp": "2026-06-03T18:02:30.178Z",
+      "description": "Major collision involving a SUV and a sedan. Airbags deployed. Vehicle rollover detected by roadside camera AI.",
+      "photoUrl": "https://images.unsplash.com/photo-1594882645126-14020914d58d?auto=format&fit=crop&q=80&w=600",
+      "dispatchedTeams": [
+        "team_1"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "acc_2",
+      "latitude": 37.7891,
+      "longitude": -122.4014,
+      "locationName": "Embarcadero St & Broadway",
+      "severity": "High",
+      "status": "Alert Sent",
+      "source": "IoT",
+      "timestamp": "2026-06-03T18:32:30.179Z",
+      "description": "Impact sensor alert from connected vehicle. High G-force impact detected on front bumper.",
+      "photoUrl": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&q=80&w=600",
+      "dispatchedTeams": [],
+      "confidence": 0.88
+    },
+    {
+      "id": "acc_3",
+      "latitude": 37.7699,
+      "longitude": -122.4468,
+      "locationName": "Market St & Castro St",
+      "severity": "Medium",
+      "status": "Detected",
+      "source": "Mobile",
+      "timestamp": "2026-06-03T18:42:30.179Z",
+      "description": "Multiple pedestrian reports of a motorcycle slide. Rider is awake but injured.",
+      "photoUrl": "",
+      "dispatchedTeams": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "acc_4",
+      "latitude": 37.7599,
+      "longitude": -122.4348,
+      "locationName": "24th St & Mission St",
+      "severity": "Low",
+      "status": "Resolved",
+      "timestamp": "2026-06-03T16:47:30.179Z",
+      "source": "Mobile",
+      "description": "Minor fender bender blocking right lane. Both parties exchanging information. No injuries reported.",
+      "photoUrl": "",
+      "dispatchedTeams": [
+        "team_4"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "acc_1781023402708",
+      "timestamp": "2026-06-09T16:43:22.708Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 1,
+      "photoUrl": "",
+      "latitude": 37.78211325707399,
+      "longitude": -122.41603437817714,
+      "locationName": "SOS Emergency Alert - GPS Location",
+      "severity": "Critical",
+      "source": "Mobile",
+      "description": "EMERGENCY SOS ACTIVATED — Immediate assistance required at GPS coordinates."
+    },
+    {
+      "id": "acc_1781023475453",
+      "timestamp": "2026-06-09T16:44:35.453Z",
+      "dispatchedTeams": [
+        "team_2"
+      ],
+      "status": "Rescue Dispatched",
+      "confidence": 1,
+      "photoUrl": "",
+      "latitude": 37.7840650516075,
+      "longitude": -122.41161365090113,
+      "locationName": "SOS Emergency Alert - GPS Location",
+      "severity": "Critical",
+      "source": "Mobile",
+      "description": "EMERGENCY SOS ACTIVATED — Immediate assistance required at GPS coordinates."
+    },
+    {
+      "id": "acc_1782761891414",
+      "timestamp": "2026-06-29T19:38:11.415Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 1,
+      "photoUrl": "",
+      "latitude": 37.78296454733077,
+      "longitude": -122.41807810952373,
+      "locationName": "SOS Emergency Alert - GPS Location",
+      "severity": "Critical",
+      "source": "Mobile",
+      "description": "EMERGENCY SOS ACTIVATED — Immediate assistance required at GPS coordinates."
+    },
+    {
+      "id": "acc_1782761914734",
+      "timestamp": "2026-06-29T19:38:34.734Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 1,
+      "photoUrl": "",
+      "latitude": 13.031542729683467,
+      "longitude": 80.17968679845694,
+      "locationName": "Reported Location (13.0315, 80.1797)",
+      "severity": "Medium",
+      "source": "Mobile",
+      "description": "Accident reported via SOS form."
+    },
+    {
+      "id": "acc_1782763886143",
+      "timestamp": "2026-06-29T20:11:26.143Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 0.89,
+      "photoUrl": "https://images.unsplash.com/photo-1594882645126-14020914d58d?auto=format&fit=crop&q=80&w=600",
+      "latitude": 37.7929,
+      "longitude": -122.4445,
+      "locationName": "AI Cam Node 173 - SF Metro",
+      "severity": "Critical",
+      "source": "Camera",
+      "description": "AI Camera detection: Rollover collision. Car turned sideways on lane 2. Confidence: 89%."
+    },
+    {
+      "id": "acc_1782763886331",
+      "timestamp": "2026-06-29T20:11:26.331Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 0.89,
+      "photoUrl": "https://images.unsplash.com/photo-1594882645126-14020914d58d?auto=format&fit=crop&q=80&w=600",
+      "latitude": 37.7512,
+      "longitude": -122.4404,
+      "locationName": "AI Cam Node 196 - SF Metro",
+      "severity": "Critical",
+      "source": "Camera",
+      "description": "AI Camera detection: Rollover collision. Car turned sideways on lane 2. Confidence: 89%."
+    },
+    {
+      "id": "acc_1782763892819",
+      "timestamp": "2026-06-29T20:11:32.819Z",
+      "dispatchedTeams": [
+        "team_3"
+      ],
+      "status": "Rescue Dispatched",
+      "confidence": 0.92,
+      "photoUrl": "https://images.unsplash.com/photo-1594882645126-14020914d58d?auto=format&fit=crop&q=80&w=600",
+      "latitude": 37.7792,
+      "longitude": -122.4197,
+      "locationName": "AI Cam Node 108 - SF Metro",
+      "severity": "High",
+      "source": "Camera",
+      "description": "AI Camera detection: Vehicle collision on Highway. Confidence: 92%."
+    },
+    {
+      "id": "acc_1782764397556",
+      "timestamp": "2026-06-29T20:19:57.556Z",
+      "dispatchedTeams": [],
+      "status": "Detected",
+      "confidence": 1,
+      "photoUrl": "",
+      "latitude": 13.031552,
+      "longitude": 80.179604,
+      "locationName": "SOS Emergency Alert - GPS Location",
+      "severity": "Critical",
+      "source": "Mobile",
+      "description": "EMERGENCY SOS ACTIVATED — Immediate assistance required at GPS coordinates."
+    }
+  ],
+  "teams": [
+    {
+      "id": "team_1",
+      "name": "Ambulance Unit Alpha",
+      "type": "Ambulance",
+      "status": "Dispatched",
+      "location": {
+        "latitude": 37.776,
+        "longitude": -122.415
+      },
+      "contact": "+1 (555) 911-0101"
+    },
+    {
+      "id": "team_2",
+      "name": "Ambulance Unit Beta",
+      "type": "Ambulance",
+      "status": "Dispatched",
+      "location": {
+        "latitude": 37.785,
+        "longitude": -122.43
+      },
+      "contact": "+1 (555) 911-0102"
+    },
+    {
+      "id": "team_3",
+      "name": "Rescue Squad 5",
+      "type": "Rescue Team",
+      "status": "Dispatched",
+      "location": {
+        "latitude": 37.77,
+        "longitude": -122.44
+      },
+      "contact": "+1 (555) 911-0205"
+    },
+    {
+      "id": "team_4",
+      "name": "Highway Patrol 12",
+      "type": "Police",
+      "status": "Available",
+      "location": {
+        "latitude": 37.76,
+        "longitude": -122.43
+      },
+      "contact": "+1 (555) 911-0312"
+    },
+    {
+      "id": "team_5",
+      "name": "Trauma Med-Evac 1",
+      "type": "Ambulance",
+      "status": "Available",
+      "location": {
+        "latitude": 37.8,
+        "longitude": -122.41
+      },
+      "contact": "+1 (555) 911-0401"
+    }
+  ]
+}
